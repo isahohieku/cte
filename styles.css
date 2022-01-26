@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+nav#main {
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    max-width: 1020px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav#main ul {
+    margin-left: auto;
+}
+
+nav#main li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav#main li a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.jumbotron {
+    height: 600px;
+    width: 100%;
+    background: url('https://media.gettyimages.com/photos/making-fashion-picture-id848875240?s=2048x2048');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.shop_now {
+    border: 0;
+    background-color: rgb(2, 79, 124);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.categories {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1020px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.card {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.categories_card {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.categories_card h3 {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+
+.categories_card_1 {
+    background: url('https://media.gettyimages.com/photos/asian-beauty-picture-id496619649?s=2048x2048');
+    background-size: cover;
+}
+
+.categories_card_2 {
+    background: url('https://media.gettyimages.com/photos/macho-man-picture-id1202142519?s=2048x2048');
+    background-size: cover;
+}
+
+.categories_card_3 {
+    background: url('https://media.gettyimages.com/photos/cute-little-girl-in-white-dress-smiling-on-camera-picture-id1035967418?s=2048x2048');
+    background-size: cover;
+}
+
+.product_overview {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.product_overview_card {
+    width: 240px;
+    min-height: 300px;
+}
+
+.product_overview_row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.product_overview_card_1, .product_overview_card_2, .product_overview_card_3, .product_overview_card_4 {
+    width: 100%;
+    height: 300px
+}
+
+.product_overview_card_1 {
+    background: url('https://media.gettyimages.com/photos/asian-beauty-picture-id496619649?s=2048x2048');
+    background-size: cover;
+}
+
+.product_overview_card_2 {
+    background: url('https://media.gettyimages.com/photos/macho-man-picture-id1202142519?s=2048x2048');
+    background-size: cover;
+}
+
+.product_overview_card_3 {
+    background: url('https://media.gettyimages.com/photos/cute-little-girl-in-white-dress-smiling-on-camera-picture-id1035967418?s=2048x2048');
+    background-size: cover;
+}
+
+.product_overview_card_4 {
+    background: url('https://media.gettyimages.com/photos/cute-little-girl-in-white-dress-smiling-on-camera-picture-id1035967418?s=2048x2048');
+    background-size: cover;
+}
+
+.add_to_cart {
+    background-color: black;
+    color: white;
+    border: 0;
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.description {
+    margin-top: 10px;
+}
+
+.amount, .description, .add_to_cart {
+    margin-left: 10px;
+}
